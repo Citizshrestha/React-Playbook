@@ -1,6 +1,11 @@
 // import React from 'react'
 
-import FunctionalChaining from "./FunctionalChaining/functionalChaining"
+import Product from "./5)List and Keys/Product"
+
+// import Task from "./5)List and Keys/Task"
+
+// import MAP from "./5)List and Keys/MAP"
+// import FunctionalChaining from "./FunctionalChaining/functionalChaining"
 
 // import Message from "./2)State/Message"
 
@@ -16,8 +21,10 @@ const App = () => {
      {/* <State/> */}
      {/* <Message/> */}
      {/* <Parent/> */}
-    <FunctionalChaining/>
-    
+    {/* <FunctionalChaining/> */}
+    {/* <MAP/> */}
+    {/* <Task/> */}
+      <Product/>
     </>
   )
 }
