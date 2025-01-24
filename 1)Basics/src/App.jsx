@@ -1,6 +1,8 @@
 // import React from 'react'
 
-import Product from "./5)List and Keys/Product"
+import CARD from "./5)List and Keys/CARD"
+
+// import Product from "./5)List and Keys/Product"
 
 // import Task from "./5)List and Keys/Task"
 
@@ -24,7 +26,8 @@ const App = () => {
     {/* <FunctionalChaining/> */}
     {/* <MAP/> */}
     {/* <Task/> */}
-      <Product/>
+      {/* <Product/> */}
+      <CARD/>
     </>
   )
 }
