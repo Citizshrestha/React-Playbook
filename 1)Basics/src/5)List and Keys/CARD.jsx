@@ -50,7 +50,7 @@ const Assignment2 = () => {
               padding: "20px",
               textAlign: "center",
               width: "250px",
-              transition: "transform 0.2s ease",
+              transition: "transform 0.2s ease", 
             }}
           >
             <h2 style={{ color: "#4caf50" }}>{user.name}</h2>
