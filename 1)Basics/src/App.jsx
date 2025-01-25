@@ -16,7 +16,8 @@
 // import Card from "./1)CreatingComponents/Card"
 // import State from "./State/State"
 import { BrowserRouter as Router, Routes,Route,Link } from "react-router-dom"
-// import User from "./6)reactRouter/components/User"
+
+import User from "./6)reactRouter/components/User"
 // import Home from "./6)reactRouter/components/Home";
 // import About from "./6)reactRouter/components/About";
 // import Contact from "./6)reactRouter/components/Contacts";
@@ -49,8 +50,7 @@ const App = () => {
             <Route path="/src/6)reactRouter/components/Contacts.jsx" element={<Contact/>}/>
          </Routes>
     </Router>  */}
-
-{/* <Router>
+<Router>
       <nav style={{ padding: "10px", background: "#f0f0f0" }}>
         <Link to="/user/1" style={{ margin: "10px" }}>User 1</Link>
         <Link to="/user/2" style={{ margin: "10px" }}>User 2</Link>
@@ -59,9 +59,14 @@ const App = () => {
       <Routes>
         <Route path="/user/:id" element={<User />} />
       </Routes>
-    </Router> */}
+    </Router> 
 
+
+
+
+    
     </>
+
   )
 }
 
