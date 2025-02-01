@@ -1,14 +1,14 @@
 // import React from 'react'
 
-import UserInfo from "./component/UserInfo"
+// import UserInfo from "./component/UserInfo"
 
-// import Posts from "./component/Posts"
+import Posts from "./component/Posts"
 
 const App = () => {
   return (
     <div>
-        {/* <Posts/> */}
-        <UserInfo/>
+        <Posts/>
+        {/* <UserInfo/> */}
     </div>
   )
 }
