@@ -10,7 +10,7 @@ const Posts = () => {
      const fetchPosts = async () =>{
       try{
         const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-        if (!response.ok) throw new Error('Failed to fetch posts! Something went wrong');
+        if (!response.ok) throw new Error('There is some error in fetching API!');
         const data = await response.json();
         console.log(data)
         setPosts(data);
